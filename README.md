@@ -44,7 +44,7 @@ MCU ATTINY13/85/4X PINs :
 
 To pins #4 and pin#8 of MCU optionaly attach capacitors 100nF/10uF
 
-
+</BR>
 
 Analogue temperature sensor LM35 / TMP36 pins :
 

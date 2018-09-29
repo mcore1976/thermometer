@@ -22,9 +22,8 @@ TMP36/LM35 code borrowed from : http://blog.podkalicki.com/100-projects-on-attin
 
 
 How to connect :
-
+</BR>
 MCU ATTINY13/85/4X PINs :
-
 
 1 (ADC0) PB5 - Not Connected
 
@@ -54,7 +53,7 @@ Vout - to pin #2 of ATTINY
 
 GND - to "-" of 2xAA battery pack
 
-
+</BR>
 LCD Nokia 5110 pins :
 
 CS - to "-" of 2xAA battery pack

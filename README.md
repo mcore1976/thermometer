@@ -8,6 +8,10 @@ Bill of Materials :
 3. Arduino module LCD Nokia 5510/3110 ( resolution 84x48, chip  PCD 8544)
 4. Capacitors 100nF + 10 uF (optional)
 
+To upload program code to the chip using cheapest USBASP programmer (less than 2 USD on eBay/Aliexpress) look at this page : http://www.learningaboutelectronics.com/Articles/Program-AVR-chip-using-a-USBASP-with-10-pin-cable.php
+
+The script attached in repository ( "compileXXXX" ) can be used to upload data to the chip if you have Linux machine with following packages : "avr-gcc" and "avrdude". For example in Ubuntu download these packages using command : "sudo apt-get install avr-gcc" and "sudo apt-get install avrdude" and you are ready to go.
+
 Features :
 
 - powered by 2 x battery AA (LR6). LCD module requires 3.3V power

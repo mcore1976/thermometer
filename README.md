@@ -77,4 +77,15 @@ VCC - to "+" of 2xAA battery pack
 GND - to "-" of 2xAA battery pack
 
 
- 
+ COMPILATION ON LINUX PC :
+
+To upload program code to the chip using cheapest USBASP programmer (less than 2 USD on eBay/Aliexpress) look at this page : http://riteshkhanna.com/2016/04/20/programming-attiny45attiny85-with-a-usbasp-avr-programmer/
+
+The script attached in repository ( "compileatmegaX") can be used to upload data to the chip if you have Linux machine with following packages : "gcc-avr", "binutils-avr" (or sometimes just "binutils"), "avr-libc", "avrdude" and optionally "gdb-avr"(debugger only if you really need it) . For example in Ubuntu download these packages using command : "sudo apt-get install gcc-avr binutils-avr avr-libc gdb-avr avrdude". After doing it you will be able to run compilation the script from the directory you have downloaded github files by commands:
+
+    "sudo chmod +rx compiletmega*" and "sudo ./compileatmega7" ( for BK-808 board)
+    "sudo chmod +rx compiletmega*" and "sudo ./compileatmega8" ( for other SIM808 boards )
+
+COMPILATION ON WINDOWS 10 PC :
+
+If you have Windows 10 machine - follow this tutorial to download and install full AVR-GCC environment : http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/windows_avr.html and use "compileatmegaXX.bat" files for compilaton in the directory where you have downloaded mainX.c files. You have to be logged as Windows Administrator and run "cmd" from search window to do that. Then use commands like "cd XXXXX" to change working directory to get to downloaded source files.
